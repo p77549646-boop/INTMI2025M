@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyO4tU5pny5RR2SkNhXoI9YX",
+      "authorship_tag": "ABX9TyOV50oNc9ObzpwzaFS+JsbK",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -353,6 +353,94 @@
             "Digite a quantidade de horas trabalhadas: 2435\n",
             "Digite o valor por hora: 0.0001\n",
             "O salário é de R$0.36\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# ESTRURA DE REPETIÇÃO\n",
+        "\n",
+        "## for in range\n",
+        "\n",
+        "repete uma estrutrura de codigo N vezes que sera determinado por um contador(x,i, ou outra variavel).\n",
+        "Ex:"
+      ],
+      "metadata": {
+        "id": "8OZ7IgbjuuaW"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cont = 0\n",
+        "for cont in range(1\n",
+        "                01):\n",
+        "  print (\"contador\" , cont)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "GsXOrIkZvPGV",
+        "outputId": "c1a78ce6-9dfb-4ff5-9398-4bf643930e35"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers (ipython-input-4290267730.py, line 3)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipython-input-4290267730.py\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\n\u001b[0;31m    01):\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Crie um algoritimo que receba um numero do usuario e imprima a tabuada de o ate 10"
+      ],
+      "metadata": {
+        "id": "WdhKeoDdxlxB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = int(input(\"digite um numero: \"))\n",
+        "for i in range(11):\n",
+        "  resultado = numero * i\n",
+        "  print(f\"{numero} x {i} = {resultado}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KaiVZ7sPxzYp",
+        "outputId": "490cc495-88dd-4670-cfbf-fe64f974fc9c"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero: 9079807\n",
+            "9079807 x 0 = 0\n",
+            "9079807 x 1 = 9079807\n",
+            "9079807 x 2 = 18159614\n",
+            "9079807 x 3 = 27239421\n",
+            "9079807 x 4 = 36319228\n",
+            "9079807 x 5 = 45399035\n",
+            "9079807 x 6 = 54478842\n",
+            "9079807 x 7 = 63558649\n",
+            "9079807 x 8 = 72638456\n",
+            "9079807 x 9 = 81718263\n",
+            "9079807 x 10 = 90798070\n"
           ]
         }
       ]
